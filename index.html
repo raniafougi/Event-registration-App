@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Page</title>
-</head>
-<body>
-    <h1>Hello JavaScript</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration App</title>
 
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="container">
+
+    <h1>Event Registration App</h1>
+
+    <p>Register for the technology event.</p>
+
+    <form id="registrationForm">
+
+        <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age">
+        </div>
+
+        <div class="form-group">
+            <label for="technology">Technology:</label>
+
+            <select id="technology">
+                <option value="">Select</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>React</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" id="terms">
+            <label for="terms">
+                I accept the terms.
+            </label>
+        </div>
+
+        <button type="submit" class="btn">
+            Register
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <h2>Participants</h2>
+
+    <p>Total: <span id="count">0</span></p>
+
+    <input type="text"
+           id="search"
+           placeholder="Search participant">
+
+    <ul id="participantsList"></ul>
+
+</main>
+
+<script src="script.js"></script>
+
 </body>
 </html>

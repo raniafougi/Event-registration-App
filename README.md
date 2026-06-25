@@ -1,10 +1,12 @@
 # Event Registration App
 
-Student project created using HTML, CSS and JavaScript.
+Student project created using:
 
-Author: Rania
+- HTML
+- CSS
+- JavaScript
 
 Features:
-- Registration form
 - Validation
 - Participant list
+- Counter
