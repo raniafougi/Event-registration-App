@@ -10,3 +10,4 @@ Features:
 - Validation
 - Participant list
 - Counter
+Created for the Event Registration App Practical test
